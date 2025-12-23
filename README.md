@@ -2,6 +2,9 @@
 
 Lightweight project for detecting anomalies in videos using an image-based autoencoder.
 
+Demo Video : https://www.loom.com/share/8b0ac1f46fd64d1f9d8507288b42ae09
+
+
 ## Overview
 
 This repository trains an autoencoder on "normal" video frames so that high reconstruction error indicates anomalies. It includes training and detection scripts, utilities for preprocessing video frames, a Streamlit UI (`app.py`) for uploading videos, and saved model artifacts in the `models/` directory.
